@@ -1,1 +1,30 @@
-/* You can add global styles to this file, and also import other style files */
+button {
+    background-color: black;
+    color: white;
+}
+
+button:hover {
+    background-color: #443e44;
+}
+
+button:focus {
+    outline: none;
+}
+
+.p-1 {
+    padding: 1px;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+input {
+    display: block;
+    margin: 5px;
+}

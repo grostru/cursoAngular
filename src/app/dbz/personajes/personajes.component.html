@@ -1,0 +1,9 @@
+<h3>Personajes</h3>
+<hr>
+<ul>
+    <li *ngFor="let personaje of personajes">
+        {{personaje.nombre}}-{{personaje.poder | number}}
+        <!--Al poner | number en el poder, estamos formateando el carácter de salida a un número con sus 
+            comas correspondientes o puntos según el país. A ésto se le llama pipes-->
+    </li>            
+</ul>

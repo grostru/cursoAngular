@@ -9,5 +9,4 @@ import { Component } from '@angular/core';
 // Estas variables son propiedades de clase y con Doble {{}} lo podemos mostrar en el html
 export class AppComponent {
   title = 'bases';
-
 }
